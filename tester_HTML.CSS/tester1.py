@@ -116,8 +116,6 @@ class TestContentCSSCode():
                     else:
                         print('None!')
             
-
-            
             # Verification of the availability of meta-tags
             meta_description = driver.find_elements(By.XPATH, "//meta[@name='description']")
             if meta_description:
