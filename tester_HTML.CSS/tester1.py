@@ -39,7 +39,10 @@ class TestContentHTMLCode(unittest.TestCase):
 class TestContentCSSCode():
     # Start testing CSS file
     def css_test1():
+        # Open Chrome
         driver = webdriver.Chrome()
+
+        # Link directory HTML file
         driver.get("C:\\Users\\darja\\OneDrive\\Desktop\\html_Progects\\HTML_projects\\HTML_Portfolio2_official\\Portfolio.html")
         
         try:
