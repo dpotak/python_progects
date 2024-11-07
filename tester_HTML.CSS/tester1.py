@@ -128,6 +128,11 @@ class TestContentCSSCode():
             # The Driver Closure
             driver.quit()
 
+
+class JavaScriptTesting():
+    pass
+
+
 if __name__ == "__main__":
     TestContentCSSCode.css_test1()
     unittest.main()
