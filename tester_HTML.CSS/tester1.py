@@ -142,7 +142,8 @@ class TestContentCSSCode():
 
 # Testing JavaScript 
 class JavaScriptTesting():
-    pass
+    def JavaScripts():
+        pass
 
 
 if __name__ == "__main__":
