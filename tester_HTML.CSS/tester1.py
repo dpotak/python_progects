@@ -118,7 +118,19 @@ class TestContentCSSCode():
             
             # Verification of the availability of meta-tags
             meta_description = driver.find_elements(By.XPATH, "//meta[@name='description']")
+            meta_keywords = driver.find_elements(By.XPATH, "//meta[@name='keywords']")
+            meta_viewport = driver.find_elements(By.XPATH, "//meta[@name='viewport']")
             if meta_description:
+                print("Element found!")
+            else:
+                print("Element not found!")
+
+            if meta_keywords:
+                print("Element found!")
+            else:
+                print("Element not found!")
+
+            if meta_viewport:
                 print("Element found!")
             else:
                 print("Element not found!")
