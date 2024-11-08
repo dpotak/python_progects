@@ -1,0 +1,13 @@
+This test is written in Python's programming language. 
+This code verifies the presence of tags in HTML and also 
+the necessary styles in CSS. 
+
+The code uses two popular test tools for HTML tags and CSS styles. 
+It's BeautifulSoup and Selenium from the webdrive. 
+
+BeautifulSoup is a library used for HTML and XML. 
+It is used to retrieve data from HTML, especially 
+if the contents of the page need to be analysed. 
+
+Selenium is a tool to automate a browser, and WebDriver is 
+its component to interact with a browser (e.g. Chrome, Firefox).
