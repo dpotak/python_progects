@@ -1,3 +1,5 @@
+# English version documentation
+
 This test is written in Python's programming language. 
 This code verifies the presence of tags in HTML and also 
 the necessary styles in CSS. 
@@ -11,3 +13,23 @@ if the contents of the page need to be analysed.
 
 Selenium is a tool to automate a browser, and WebDriver is 
 its component to interact with a browser (e.g. Chrome, Firefox).
+
+
+
+# Russia version documentation
+
+Это тестер написан на языке программирование Питон. Данный код проверяет на наличие тэгов в HTML и 
+также наличие необходимых стилей в CSS. 
+
+В коде используется два популярных инструмента для разработки 
+тестировщика для HTML тэгов и CSS стилей. 
+Это BeautifulSoup и Selenium с webdriver. 
+
+BeautifulSoup — это библиотека используется для парсинга HTML и XML. 
+Она испльзуется для извлечение данных из HTML , 
+особенно это необходимо если надо проанализировать содержимое страницы. 
+
+Selenium  - это инструмент для автоматизации браузера, 
+а WebDriver - это его компонент для взаимодействия с браузером 
+(например, Chrome, Firefox).
+
