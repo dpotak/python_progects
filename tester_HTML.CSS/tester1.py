@@ -145,7 +145,7 @@ class TestContentCSSCode():
 
 # Testing JavaScript 
 class JavaScriptTesting():
-    def JavaScripts():
+    def JavaScripts(self):
         pass
 
 
